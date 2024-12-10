@@ -187,7 +187,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void getInformationFromDisplay(){
         mExercise = binding.exerciseInputEditText.getText().toString();
-
         try{
             mWeight = Double.parseDouble(binding.weightInputEditText.getText().toString());
         }catch(NumberFormatException e){
